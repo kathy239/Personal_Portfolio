@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./Components/NavBar";
+import NavBar from "./Components/NavBar/Navbar"; // Adjusted for proper relative path
 
 function App() {
   return (
