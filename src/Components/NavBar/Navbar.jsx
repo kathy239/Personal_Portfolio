@@ -49,7 +49,7 @@ const Navbar = () => {
           <li>
             <Button
               as={Link}
-              variant="outline-info"
+              variant="outline-dark"
               to="contact"
               smooth={true}
               offset={-260}
