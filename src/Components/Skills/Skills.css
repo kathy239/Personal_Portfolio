@@ -1,0 +1,18 @@
+.myskills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: transparent;
+}
+
+.category {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #cf9fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

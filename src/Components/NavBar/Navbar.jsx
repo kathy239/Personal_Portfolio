@@ -44,14 +44,6 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/testimonials"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
-            >
-              Testimonials
-            </NavLink>
-          </li>
-          <li>
             <Button as={NavLink} to="/contact" variant="outline-dark">
               Let's Connect
             </Button>
