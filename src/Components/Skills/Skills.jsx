@@ -7,7 +7,7 @@ const Skills = () => {
   const categories = data.Skills;
   return (
     <div className="skills">
-      <Title subTitle="" title="My Skills" />
+      <Title subTitle="" title="Technical Skills" />
       <div className="myskills">
         {data.Skills.map((category, index) => (
           <Category key={index} title={category.title} items={category.items} />

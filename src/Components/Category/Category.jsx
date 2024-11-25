@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Category = ({ title, items }) => {
   return (
     <div className="category">
-      <h2>{title}</h2>
+      <h2 className="attri">{title}</h2>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>

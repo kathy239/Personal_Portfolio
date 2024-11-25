@@ -11,8 +11,9 @@
 .category {
   text-align: center;
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  border: 1px solid #161616;
+  border-radius: 15px;
+
   background-color: #cf9fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -21,9 +22,52 @@
 .category:hover {
   transform: translateY(-10px) translateX(-10px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-
   background-color: #d0d3d4;
 }
+
 .category ul {
-  list-style-type: square;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none; /* Remove default bullets */
+}
+
+.category ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url("../../assets/img/checked.png") no-repeat left center;
+  background-size: 16px 16px;
+  padding-left: 536px;
+  text-align: left;
+}
+.attri {
+  text-align: center;
+  border: 1px solid #161616;
+  border-radius: 15px;
+  background-color: #af78e7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for viewports smaller than 1000px */
+@media (max-width: 1000px) {
+  .myskills {
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 1.5rem;
+  }
+
+  .category {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .category ul li {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+
+  .attri {
+    padding: 1rem;
+  }
 }
