@@ -9,7 +9,7 @@ const Skills = () => {
     <div className="skills">
       <Title subTitle="" title="My Skills" />
       <div className="myskills">
-        {data.Skills.categories.map((category, index) => (
+        {data.Skills.map((category, index) => (
           <Category key={index} title={category.title} items={category.items} />
         ))}
       </div>
