@@ -20,5 +20,59 @@
       "title": "Libraries",
       "items": ["Bootstrap", "D3.js", "Node.js", "Scikit-learn python"]
     }
+  ],
+  "Projects": [
+    {
+      "title": "Machine-Demo-Using-VR",
+      "subtitle": "University of South Australia, Adelaide, South Australia",
+      "attributes": [
+        {
+          "label": "Objective",
+          "description": "Help Future Industry to demonstrate their latest in-line coating techs to their potential customers (usually located overseas/interstate)"
+        },
+        {
+          "label": "Tools",
+          "description": "Unity 3D, C#"
+        },
+        {
+          "label": "Duties",
+          "description": "Co-Developer in a dual developer group. I was in charge of writing the animation scripts in C#. Those scripts run in the backend and animate the 3D objects in the Application."
+        },
+        {
+          "label": "Outcome",
+          "description": "We developed an app that works on PC (with HTC VIVE), IOS and Android"
+        },
+        {
+          "label": "Result",
+          "description": "Obtained a Distinction for the project"
+        }
+      ]
+    },
+    {
+      "title": "Web Navigation and Question-Answering",
+      "subtitle": "University of Adelaide, Adelaide, South Australia ",
+      "attributes": [
+        {
+          "label": "Objective",
+          "description": "Assist elderly individuals and those with visual impairments in navigating a shopping website to easily find and access what they need."
+        },
+        {
+          "label": "Tools",
+          "description": "JavaScript"
+        },
+        {
+          "label": "Duties",
+          "description": "Co-Developer in a dual developer group. I was in charge of collecting data and generating training data by using ChatGPT API."
+        },
+        {
+          "label": "Outcome",
+          "description": "We developed an agent that runs on Windows and navigates to the desired website based on a given prompt."
+        },
+        {
+          "label": "Result",
+          "description": "Obtained a Distinction for the project"
+        }
+      ]
+    }
   ]
 }
