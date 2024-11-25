@@ -1,13 +1,21 @@
 import "./App.css";
-import NavBar from "./Components/NavBar/Navbar"; // Adjusted for proper relative path
+import NavBar from "./Components/NavBar/Navbar";
 import Hero from "./Components/Hero/Hero";
-import Title from "./Components/Title/Title";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
+    <Router>
       <NavBar />
-      <Hero />
-    </div>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<AboutMe />} />
+      </Routes>
+    </Router>
   );
 }
 
