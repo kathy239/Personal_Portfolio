@@ -24,3 +24,6 @@
 
   background-color: #d0d3d4;
 }
+.category ul {
+  list-style-type: square;
+}
