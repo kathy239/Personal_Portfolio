@@ -2,21 +2,23 @@
   "Skills": [
     {
       "id": "1",
-      "title": "App Dashboard",
-      "src": "src/public/img/placeholder-image.png",
-      "description": "uspend various elements in eros as part of a structured arrangement."
+      "title": "Programming Languages",
+      "items": ["JavaScript", "HTML5", "Python", "CSS"]
     },
     {
       "id": "2",
-      "title": "Easy Rent",
-      "src": "src/public/img/placeholder-image-1.png",
-      "description": "uspend various elements in eros as part of a structured arrangement."
+      "title": "Frameworks",
+      "items": ["React JS", "React Native", "Node JS", ".NET"]
     },
     {
       "id": "3",
-      "title": "Ahuse",
-      "src": "src/public/img/placeholder-image-2.png",
-      "description": "uspend various elements in eros as part of a structured arrangement."
+      "title": "Development Software",
+      "items": ["VS Code", "Visual Studio", "Sublime", "Eclipse"]
+    },
+    {
+      "id": "4",
+      "title": "Libraries",
+      "items": ["Bootstrap", "D3.js", "Node.js", "Scikit-learn python"]
     }
   ]
 }
