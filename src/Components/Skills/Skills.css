@@ -6,8 +6,16 @@
   margin: 0 auto;
   padding: 2rem;
   background-color: transparent;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInText 1s ease-in-out forwards;
+  animation-delay: 0.5s;
 }
 
+.title {
+  opacity: 0;
+  animation: fadeInTitle 1s ease-in-out forwards;
+}
 .category {
   text-align: center;
   padding: 1rem;
@@ -55,6 +63,18 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInTitle {
+  to {
+    opacity: 1;
+  }
+}
 /* Media query for viewports smaller than 1000px */
 @media (max-width: 1200px) {
   .myskills {
