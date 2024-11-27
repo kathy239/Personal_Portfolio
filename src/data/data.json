@@ -74,5 +74,27 @@
         }
       ]
     }
+  ],
+  "SoftSkills": [
+    {
+      "id": "1",
+      "skill": "Fast/self-learner",
+      "desc": "Develop new technical skills via available resources on the internet. Handle the latest deployment environments."
+    },
+    {
+      "id": "2",
+      "skill": "Team player",
+      "desc": "Able to work in a team and demonstrate cooperation skills within the team."
+    },
+    {
+      "id": "3",
+      "skill": "Analytical person",
+      "desc": "Enjoy solving complex problems. Break down a complex issue into multiple simple issues (divide and conquer) and resolve them by conducting research. "
+    },
+    {
+      "id": "4",
+      "skill": "Active listener",
+      "desc": "Able to address clients’ needs and obtain their requirements by applying active-listening skills."
+    }
   ]
 }
