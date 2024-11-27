@@ -18,7 +18,7 @@ const Skills = () => {
       <div className="myskills">
         {SoftSkills.map((data, index) => (
           <div className="category" key={index}>
-            <h2>{data.skill}</h2>
+            <h2 className="attri">{data.skill}</h2>
             <p>{data.desc}</p>
           </div>
         ))}

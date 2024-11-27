@@ -33,6 +33,14 @@
   padding-left: 536px;
   text-align: left;
 }
+.category p:hover {
+  border-radius: 15px;
+  transform: translateY(-2px) translateX(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-color: #d0d3d4;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .category ul li:hover {
   transform: translateY(-2px) translateX(-2px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
@@ -48,7 +56,7 @@
 }
 
 /* Media query for viewports smaller than 1000px */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .myskills {
     grid-template-columns: 1fr;
     width: 90%;
