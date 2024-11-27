@@ -14,7 +14,9 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
+              className={({ isActive }) =>
+                isActive ? "active-link" : "nav-bar"
+              }
             >
               Home
             </NavLink>
@@ -22,7 +24,9 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/skills"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
+              className={({ isActive }) =>
+                isActive ? "active-link" : "nav-bar"
+              }
             >
               Skills
             </NavLink>
@@ -30,7 +34,9 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/projects"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
+              className={({ isActive }) =>
+                isActive ? "active-link" : "nav-bar"
+              }
             >
               Projects
             </NavLink>
@@ -38,9 +44,21 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/about"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
+              className={({ isActive }) =>
+                isActive ? "active-link" : "nav-bar"
+              }
             >
               About Me
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/testimonials"
+              className={({ isActive }) =>
+                isActive ? "active-link" : "nav-bar"
+              }
+            >
+              Testimonials
             </NavLink>
           </li>
           <li>

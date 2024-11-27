@@ -32,8 +32,10 @@ nav ul li {
     margin: 10px 15px;
   }
 }
-
-@media (max-width: 800px) {
+.nav-bar {
+  font-family: "Outfit", serif;
+}
+@media (max-width: 1000px) {
   .nav {
     padding: 15px 0;
   }

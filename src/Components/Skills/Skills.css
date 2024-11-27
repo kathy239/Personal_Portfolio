@@ -16,13 +16,6 @@
 
   background-color: #cf9fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.category:hover {
-  transform: translateY(-10px) translateX(-10px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-  background-color: #d0d3d4;
 }
 
 .category ul {
@@ -34,11 +27,18 @@
 .category ul li {
   display: flex;
   align-items: center;
+  border-radius: 15px;
   justify-content: space-between;
   background: url("../../assets/img/checked.png") no-repeat left center;
   background-size: 16px 16px;
   padding-left: 536px;
   text-align: left;
+}
+.category ul li:hover {
+  transform: translateY(-2px) translateX(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-color: #d0d3d4;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .attri {
   text-align: center;
