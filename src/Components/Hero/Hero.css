@@ -6,10 +6,44 @@
   height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  opacity: 0;
+  animation: fadeInHero 1s ease-in-out forwards;
 }
 
 .hero img {
   width: 50%;
   border-radius: 10px;
   display: block;
+}
+.greeting,
+.intro,
+.description {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInText 1s ease-in-out forwards;
+}
+
+.greeting {
+  animation-delay: 0.5s;
+}
+
+.intro {
+  animation-delay: 1s;
+}
+
+.description {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeInHero {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
