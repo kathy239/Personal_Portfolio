@@ -1,5 +1,7 @@
 import "./Hero.css";
 import img from "../../assets/img/astronaut.svg";
+import { NavLink } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 const Hero = () => {
   return (
     <div className="hero">
@@ -15,6 +17,14 @@ const Hero = () => {
           variety of topics during my degree. I am looking for a chance to take
           my learning into the next stage.
         </p>
+        <Button
+          className="connect"
+          as={NavLink}
+          to="/contact"
+          variant="outline-dark"
+        >
+          Let's Connect
+        </Button>
       </div>
       <img src={img} alt="" />
     </div>

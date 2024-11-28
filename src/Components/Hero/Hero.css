@@ -9,15 +9,20 @@
   opacity: 0;
   animation: fadeInHero 1s ease-in-out forwards;
 }
-
 .hero img {
+  position: relative;
   width: 50%;
   border-radius: 10px;
   display: block;
+  animation-name: floatImg;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
 .greeting,
 .intro,
-.description {
+.description,
+.connect {
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInText 1s ease-in-out forwards;
@@ -35,6 +40,10 @@
   animation-delay: 1.5s;
 }
 
+.connect {
+  animation-delay: 2s;
+}
+
 @keyframes fadeInHero {
   to {
     opacity: 1;
@@ -45,5 +54,20 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes floatImg {
+  0% {
+    left: 2px;
+    top: 2px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 2px;
+    top: 2px;
   }
 }

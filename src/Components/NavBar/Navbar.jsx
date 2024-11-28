@@ -61,11 +61,7 @@ const Navbar = () => {
               Testimonials
             </NavLink>
           </li>
-          <li>
-            <Button as={NavLink} to="/contact" variant="outline-dark">
-              Let's Connect
-            </Button>
-          </li>
+          <li></li>
         </ul>
       </nav>
     </Container>
