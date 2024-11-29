@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="profile">
         <h3 className="greeting">Welcome to my Portfolio</h3>
         <h1 className="intro">Hi! I am Kathy Web Designer</h1>
-        <p className="description">
+        <p className="hero-description">
           I am a high-performing IT graduate looking for a position in the field
           of information technology. I offer a strong academic background in
           computer programming, web and mobile development. I built my
