@@ -20,7 +20,7 @@ const Hero = () => {
         <Button
           className="connect"
           as={NavLink}
-          to="/contact"
+          to="/connect"
           variant="outline-dark"
         >
           Let's Connect

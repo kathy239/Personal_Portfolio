@@ -4,7 +4,9 @@ import Hero from "./Components/Hero/Hero";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
+import ConnectMe from "./Components/Connect/ConnectMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <Router>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<AboutMe />} />
+        <Route path="/connect" element={<ConnectMe />} />
       </Routes>
     </Router>
   );

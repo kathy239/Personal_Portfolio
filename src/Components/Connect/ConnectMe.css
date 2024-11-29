@@ -1,0 +1,70 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: transparent;
+}
+
+.contact-col {
+  background: #cf9fff; /* Background for the form */
+  border: 1px solid #0f0f0f;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contact-col form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-col label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-col input,
+.contact-col textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.btn-submit {
+  background-color: #fff; /* Button color */
+  color: #0f0f0f;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #cf9fff; /* Darker green on hover */
+  color: #fff;
+  border-color: #0f0f0f;
+  border-radius: 8px;
+}
+
+.contact-col img {
+  margin-left: 0.5rem; /* Spacing for arrow image */
+  vertical-align: middle;
+}
+
+.contact-col span {
+  color: #4caf50; /* Feedback text color */
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
