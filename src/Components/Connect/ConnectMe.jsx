@@ -1,19 +1,38 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./ConnectMe.css";
 
 const ConnectMe = () => {
-  const [result, setResult] = useState("");
+  const API_KEY = import.meta.env.VITE_API_KEY;
+  const [result, setResult] = React.useState("");
 
-  const onsubmit = (e) => {
-    e.preventDefault();
-    setResult("Your message has been sent successfully!");
-    // Add logic for handling form submission (e.g., API call).
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", API_KEY);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log(API_KEY);
+      console.log("Error", data);
+      setResult(data.message);
+    }
   };
 
   return (
     <div className="contact" id="contact">
       <div className="contact-col">
-        <form onSubmit={onsubmit}>
+        <form onSubmit={onSubmit}>
           <label htmlFor="name">Your Name</label>
           <input
             type="text"
