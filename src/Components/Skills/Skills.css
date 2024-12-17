@@ -75,8 +75,13 @@
     opacity: 1;
   }
 }
+@media (max-width: 1300px) {
+  .category ul li {
+    padding-left: 30px;
+  }
+}
 /* Media query for viewports smaller than 1000px */
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .myskills {
     grid-template-columns: 1fr;
     width: 90%;
