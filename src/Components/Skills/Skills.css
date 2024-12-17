@@ -13,6 +13,7 @@
 }
 
 .title {
+  padding-top: 0.3rem;
   opacity: 0;
   animation: fadeInTitle 1s ease-in-out forwards;
 }
