@@ -1,6 +1,6 @@
-/* Footer Starts */
 .footer--container {
   display: flex;
+  padding-left: 80%;
   flex-direction: column;
   align-items: flex-start;
   align-items: center;
