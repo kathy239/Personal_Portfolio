@@ -1,0 +1,23 @@
+/* Footer Starts */
+.footer--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  align-self: stretch;
+}
+.footer--link--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.footer--social--icon > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  text-decoration: none;
+}

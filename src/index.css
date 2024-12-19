@@ -10,9 +10,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/purple.jpg");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
+  background-color: #d19fe8 !important;
   height: 100vh;
 }

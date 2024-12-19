@@ -6,6 +6,7 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import ConnectMe from "./Components/Connect/ConnectMe";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/connect" element={<ConnectMe />} />
       </Routes>
+      <Footer></Footer>
     </Router>
   );
 }
