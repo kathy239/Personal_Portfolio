@@ -1,8 +1,9 @@
-import { Link } from "react-scroll";
 import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  let linkedIN = import.meta.env.VITE_LINKEDIN_LINK;
+  let facebookLink = import.meta.env.VITE_FACEBOOK_LINK;
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
@@ -10,7 +11,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href={facebookLink}
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -31,7 +32,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href={linkedIN}
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
