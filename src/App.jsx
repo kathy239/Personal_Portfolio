@@ -1,7 +1,6 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/Navbar";
 import Hero from "./Components/Hero/Hero";
-import AboutMe from "./Components/AboutMe/AboutMe";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import ConnectMe from "./Components/Connect/ConnectMe";
@@ -16,7 +15,6 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<AboutMe />} />
         <Route path="/connect" element={<ConnectMe />} />
       </Routes>
       <Footer></Footer>
